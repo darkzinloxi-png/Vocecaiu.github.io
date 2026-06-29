@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Vídeo</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        video {
+            width: 100%;
+            max-width: 1200px; /* Tamanho máximo do vídeo */
+            height: auto;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Substitua 'video.mp4' pelo caminho ou link do seu vídeo -->
+    <video controls autoplay loop>
+        <source src="videoplayback.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+    </video>
+
+</body>
+</html>
